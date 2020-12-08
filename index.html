@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <title>Remote LED controller</title>
+  </head>
+  <body>
+      <div class="controller">
+				<h1 style="text-align: center; padding: 2%;">Remote LED Controller</h1>
+				<div>
+					<form action="/" method="POST">
+						<input class="button red-button" type="submit" value="R" name="submit">
+						<input class="button green-button" type="submit" value="G" name="submit">
+						<input class="button blue-button" type="submit" value="B" name="submit">
+					</form>
+				</div>
+				<h3 style="text-align: center;">Make it blink!</h3>
+				<div>
+					<form action="/" method="POST">
+						<input class="button red-button" type="submit" value="B-R" name="submit">
+						<input class="button green-button" type="submit" value="B-G" name="submit">
+						<input class="button blue-button" type="submit" value="B-B" name="submit">
+					</form>
+				</div>
+				<h3 style="text-align: center;">On/Off/Secret</h3>
+				<div>
+					<form action="/" method="POST">
+						<input class="button on-button" type="submit" value="On" name="submit">
+						<input class="button off-button" type="submit" value="Off" name="submit">
+						<input class="button secret-button" type="submit" value="Secret" name="submit">
+					</form>
+				</div>
+			</div>
+  </body>
+</html>
